@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController  
+@RequestMapping("/test-1") 
 public class TestController1 {
 	
 	@RequestMapping("/welcome")  
@@ -14,6 +15,7 @@ public class TestController1 {
 	} 
 	
 	@RequestMapping("/")  
+	@RequestMapping("/hello")  
 	public String hello()   {  
 		
 		
