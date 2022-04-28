@@ -14,7 +14,6 @@ public class TestController1 {
 	
 	} 
 
-	@RequestMapping("/")  
 	@RequestMapping("/hello")  
 	public String hello()   {  
 				
