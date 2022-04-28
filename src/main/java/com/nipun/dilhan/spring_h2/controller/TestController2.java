@@ -12,6 +12,8 @@ public class TestController2 {
 		
 		System.out.println(" added by nipundilhanjayarathne ");
 		System.out.println("  ");
+		System.out.println("added by nipun.dilhan1 ");
+		System.out.println(" ");
 		
 		return "Hello welcome 2nd controller";   
 	
@@ -21,13 +23,18 @@ public class TestController2 {
 	public String nipundilhanjayarathne()   {  
 		
 		return "Hello nipun dilhan jayarathne";  
+	}
+	
+	@RequestMapping("/n-d")  
+	public String nipundilhan()   {  
+		return "hello nipun dilhan";  
 	
 	} 
 	
 	@RequestMapping("/second")  
 	public String hello()   {  
 		
-		return "Hello second controller n-d-j";  
+		return "Hello second controller n-d ";  
 	
 	} 
 
