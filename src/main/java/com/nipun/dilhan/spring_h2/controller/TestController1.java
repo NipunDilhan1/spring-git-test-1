@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test-1") 
 public class TestController1 {
 	
+<<<<<<< Updated upstream
 	@RequestMapping("/welcome")  
 	public String welcome()   {  
 		
@@ -15,7 +16,9 @@ public class TestController1 {
 	} 
 	
 	@RequestMapping("/")  
+=======
 	@RequestMapping("/hello")  
+>>>>>>> Stashed changes
 	public String hello()   {  
 		
 		
