@@ -14,7 +14,6 @@ public class TestController2 {
 	
 	} 
 	
-	@RequestMapping("/hello")  
 	@RequestMapping("/second")  
 	public String hello()   {  
 		
