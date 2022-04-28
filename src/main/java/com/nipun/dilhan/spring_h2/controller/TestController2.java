@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/test-2") 
 public class TestController2 {
 	
 	@RequestMapping("/welcome")  
@@ -14,6 +15,7 @@ public class TestController2 {
 	} 
 	
 	@RequestMapping("/hello")  
+	@RequestMapping("/second")  
 	public String hello()   {  
 		
 		return "Hello second controller";  
