@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController2 {
 	
+	@RequestMapping("/welcome")  
+	public String welcome()   {  
+		
+		return "Hello welcome 2nd controller";   
+	
+	} 
 	
 	@RequestMapping("/hello")  
 	public String hello()   {  
