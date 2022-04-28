@@ -6,6 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController  
 public class TestController1 { 
 	
+	@RequestMapping("/welcome")  
+	public String welcome()   {  
+		
+		return "Hello welcome to git/ spring world";  
+	
+	} 
 
 	@RequestMapping("/")  
 	public String hello()   {  
