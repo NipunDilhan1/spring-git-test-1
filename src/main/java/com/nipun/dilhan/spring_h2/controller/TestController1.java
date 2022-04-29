@@ -17,7 +17,14 @@ public class TestController1 {
 	@RequestMapping("/hello")  
 	public String hello()   {  
 				
-		return "Hello javaTpoint";  
+		return "Hello hello";  
+	
+	} 
+	
+	@RequestMapping("/method-3")  
+	public String method3()   {  
+				
+		return "Hello method 3";  
 	
 	} 
 	

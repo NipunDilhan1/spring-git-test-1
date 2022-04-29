@@ -14,10 +14,6 @@ public class TestController2 {
 		System.out.println(" added by nipundilhanjayarathne ");
 		System.out.println("  ");
 
-		System.out.println("added by nipun.dilhan1 ");
-		System.out.println(" ");
-
-		
 		return "Hello welcome 2nd controller";   
 	
 	} 
@@ -37,10 +33,11 @@ public class TestController2 {
 	
 	} 
 	
-	@RequestMapping("/second")  
-	public String hello()   {  
-		
+	@RequestMapping("/hello")  
+	public String hello()   { 		
 
+		System.out.println("added by nipndilhanjayarathne ");
+		System.out.println(" ");
 		return "Hello second controller n-d ";  
 
 	
