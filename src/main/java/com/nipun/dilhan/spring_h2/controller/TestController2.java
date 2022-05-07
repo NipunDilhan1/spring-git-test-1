@@ -37,14 +37,14 @@ public class TestController2 {
 	@RequestMapping("/method-3")  
 	public String method3()   {  
 				 
-		return "Hello method 3 ndj";  
+		return "Hello method 3 nd1";  
 	}
 
 	
 	@RequestMapping("/n-d-m6")  
 	public String method6()   {  
-		
-		return "hello m-6 ndj ";  
+
+		return "hello nipun dilhan nd1";  
 	
 	} 
 
