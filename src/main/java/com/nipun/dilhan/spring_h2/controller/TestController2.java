@@ -44,7 +44,7 @@ public class TestController2 {
 	@RequestMapping("/n-d-m6")  
 	public String method6()   {  
 		
-		return "hello nipun dilhan m-6";  
+		return "hello m-6 ndj ";  
 	
 	} 
 
