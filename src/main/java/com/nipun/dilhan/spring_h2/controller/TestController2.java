@@ -24,12 +24,7 @@ public class TestController2 {
 	} 
 	
 
-	@RequestMapping("/n-d-j")  
-	public String nipundilhanjayarathne()   {  
-		
-		return "Hello nipun dilhan jayarathne";  
 
-	}
 	
 	@RequestMapping("/n-d")  
 	public String nipundilhan()   {  
