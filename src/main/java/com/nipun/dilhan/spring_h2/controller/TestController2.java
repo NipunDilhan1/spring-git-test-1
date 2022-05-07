@@ -33,10 +33,18 @@ public class TestController2 {
 	
 	} 
 	
+
 	@RequestMapping("/method-3")  
 	public String method3()   {  
 				 
 		return "Hello method 3 ndj";  
+	}
+
+	
+	@RequestMapping("/n-d-m6")  
+	public String method6()   {  
+		
+		return "hello nipun dilhan m-6";  
 	
 	} 
 
