@@ -32,6 +32,13 @@ public class TestController2 {
 		return "hello nipun dilhan";  
 	
 	} 
+	
+	@RequestMapping("/method-3")  
+	public String method3()   {  
+				 
+		return "Hello method 3 ndj";  
+	
+	} 
 
 
 

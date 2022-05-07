@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringH2Application {
 
 	public static void main(String[] args) {
+		
+		System.out.println("added by ndj ");
+		System.out.println(" ");
 		SpringApplication.run(SpringH2Application.class, args);
 	}
 

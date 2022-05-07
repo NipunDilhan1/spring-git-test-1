@@ -35,6 +35,13 @@ public class TestController1 {
 	
 	} 
 	
+	@RequestMapping("/method-5")  
+	public String Method5()   {  
+				
+		return "Hello javaTpoint m5 ndj";  
+	
+	} 
+	
  
 
 }
