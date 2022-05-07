@@ -31,7 +31,7 @@ public class TestController1 {
 	@RequestMapping("/method-4")  
 	public String fourthMethod()   {  
 				
-		return "Hello javaTpoint";  
+		return "Hello javaTpoint ndj";  
 	
 	} 
 	
