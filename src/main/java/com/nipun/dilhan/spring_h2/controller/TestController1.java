@@ -30,8 +30,8 @@ public class TestController1 {
 	
 	@RequestMapping("/method-4")  
 	public String fourthMethod()   {  
-				
-		return "Hello javaTpoint ndj";  
+
+		return "Hello javaTpoint nd1";  
 	
 	} 
 	
