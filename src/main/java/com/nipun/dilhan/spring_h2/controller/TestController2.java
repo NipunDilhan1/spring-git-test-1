@@ -38,16 +38,6 @@ public class TestController2 {
 	
 	} 
 
-	@RequestMapping("/second")  
-	public String second()   {  
-		
 
-
-		System.out.println("added by nipndilhanjayarathne ");
-		System.out.println(" ");
-		return "Hello second controller n-d ";  
-
-	
-	} 
 
 }
